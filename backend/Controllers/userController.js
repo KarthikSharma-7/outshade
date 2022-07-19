@@ -124,7 +124,7 @@ const forgotPassword = async (req, res, next) => {
           },
         });
         const mailOptions = {
-          from: "saivarshith <saivarshith3041@gmail.com>",
+          from: "",
           to: email,
           subject: "Reset Link",
           text: `Reset link is ${link}`,
